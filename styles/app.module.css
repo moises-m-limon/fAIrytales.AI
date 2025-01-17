@@ -1,0 +1,32 @@
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .inputContainer {
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .promptInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .generateButton {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .generateButton:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
